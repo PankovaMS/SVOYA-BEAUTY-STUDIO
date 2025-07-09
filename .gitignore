@@ -1,0 +1,19 @@
+# Системные файлы
+.DS_Store
+
+# Node
+node_modules/
+
+# Сборка
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# Переменные окружения
+.env
+
+# Бриф
+.docx

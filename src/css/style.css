@@ -444,7 +444,7 @@ table {
 /* line 10, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .main-section {
   min-height: 100vh;
-  background: url("/src/img/main-background.jpg") no-repeat center center/cover;
+  background: url("../img/main-background.jpg") no-repeat center center/cover;
 }
 
 /* line 14, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */

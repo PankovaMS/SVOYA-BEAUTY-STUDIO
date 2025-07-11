@@ -41,6 +41,13 @@ h1
     font-weight: 300
     font-style: normal
 
+.manrope-light 
+  font-family: "Manrope", sans-serif
+  font-optical-sizing: auto
+  font-weight: 300
+  font-style: normal
+
+
 .manrope-semiBold 
   font-family: "Manrope", sans-serif
   font-optical-sizing: auto
@@ -223,3 +230,111 @@ h1
 
 .arrow-right
     right: 10px
+
+.form-entry
+    @include greyBG(1216px, 500px)
+    background-color: rgba(10, 0, 0, 0.7)
+    margin-bottom: 56px
+    
+.form-entry__entry-btn
+    @include darkBtn(372px, 72px)
+    color: #FFFFFF
+    font-size: 30px
+    text-align: center
+    display: flex
+    justify-content: center
+    align-items: center
+
+.form-entry__entry-input > form
+    display: flex
+    flex-direction: column
+
+form > input
+    width: 700px
+    height: 82px
+    display: block
+    margin: 0 auto
+    margin-bottom: 26px
+    border: none
+    background-color: #D9D9D9
+    padding-left: 22px
+    
+.form-entry__input 
+    color: #B3B3B3    
+    font-size: 30px
+    border-radius: 4px
+
+form > input:last-of-type
+    margin-bottom: 70px
+
+.form-entry__call-btn
+    background-color: #759A74
+    border: none
+    width: 344px
+    height: 74px
+    border-radius: 21px
+    display: block
+    margin: 0 auto 
+    color: #fff
+    font-size: 30px
+    letter-spacing: 10%
+    line-height: 30px
+
+.contacts-block__title
+    @include darkBtn(1018px, 78px)
+    border-radius: 0
+    background-color: rgba(10, 0, 0, 0.38)
+    color: #F5F5F5
+    display: flex
+    justify-content: center
+    align-items: center
+    
+.contacts-block__title > h2
+    font-size: 48px
+    letter-spacing: 20%    
+    text-align: center
+
+.contacts-block__content-name
+    display: flex
+    flex-direction: column
+    text-align: left
+
+.contacts-block__content-link
+    display: flex
+    flex-direction: column
+    text-align: right
+
+.contacts-block__content-link
+    a
+        &:link,
+        &:visited,
+        &:hover,
+        &:active,
+        &:focus
+            color: #000
+            text-decoration: none
+
+
+.contacts-block__content
+    @include greyBG(1018px, 200px)
+    display: flex
+    justify-content: space-between
+    font-size: 26px
+    background: none
+
+.address
+  display: flex
+  justify-content: center
+
+.address > p
+  text-align: left
+  width: 1018px
+  font-size: 28px
+  
+.map-wrapper
+  display: flex
+  justify-content: center
+  margin: 40px auto
+
+
+    

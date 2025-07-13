@@ -686,9 +686,11 @@ h1 {
   scroll-behavior: smooth;
   align-items: center;
   height: 100%;
+  gap: 16px;
+  padding: 0 16px;
 }
 
-/* line 201, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 203, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .card {
   height: 308px;
   width: 374px;
@@ -702,7 +704,15 @@ h1 {
   color: white;
 }
 
-/* line 216, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 215, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+/* line 222, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .slider-wrapper_arrow {
   position: absolute;
   top: 50%;
@@ -716,17 +726,17 @@ h1 {
   z-index: 1;
 }
 
-/* line 228, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 234, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .arrow-left {
   left: 10px;
 }
 
-/* line 231, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 237, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .arrow-right {
   right: 10px;
 }
 
-/* line 234, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 240, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .form-entry {
   width: 1216px;
   height: 500px;
@@ -739,7 +749,7 @@ h1 {
   margin-bottom: 56px;
 }
 
-/* line 239, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 245, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .form-entry__entry-btn {
   width: 372px;
   height: 72px;
@@ -757,13 +767,13 @@ h1 {
   align-items: center;
 }
 
-/* line 248, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 254, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .form-entry__entry-input > form {
   display: flex;
   flex-direction: column;
 }
 
-/* line 252, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 258, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 form > input {
   width: 700px;
   height: 82px;
@@ -775,19 +785,19 @@ form > input {
   padding-left: 22px;
 }
 
-/* line 262, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 268, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .form-entry__input {
   color: #B3B3B3;
   font-size: 30px;
   border-radius: 4px;
 }
 
-/* line 267, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 273, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 form > input:last-of-type {
   margin-bottom: 70px;
 }
 
-/* line 270, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 276, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .form-entry__call-btn {
   background-color: #759A74;
   border: none;
@@ -802,7 +812,7 @@ form > input:last-of-type {
   line-height: 30px;
 }
 
-/* line 283, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 289, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .contacts-block__title {
   width: 1018px;
   height: 78px;
@@ -820,34 +830,34 @@ form > input:last-of-type {
   align-items: center;
 }
 
-/* line 292, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 298, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .contacts-block__title > h2 {
   font-size: 48px;
   letter-spacing: 20%;
   text-align: center;
 }
 
-/* line 297, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 303, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .contacts-block__content-name {
   display: flex;
   flex-direction: column;
   text-align: left;
 }
 
-/* line 302, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 308, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .contacts-block__content-link {
   display: flex;
   flex-direction: column;
   text-align: right;
 }
 
-/* line 309, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 315, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .contacts-block__content-link a:link, .contacts-block__content-link a:visited, .contacts-block__content-link a:hover, .contacts-block__content-link a:active, .contacts-block__content-link a:focus {
   color: #000;
   text-decoration: none;
 }
 
-/* line 318, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 324, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .contacts-block__content {
   width: 1018px;
   height: 200px;
@@ -862,20 +872,20 @@ form > input:last-of-type {
   background: none;
 }
 
-/* line 325, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 331, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .address {
   display: flex;
   justify-content: center;
 }
 
-/* line 329, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 335, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .address > p {
   text-align: left;
   width: 1018px;
   font-size: 28px;
 }
 
-/* line 334, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 340, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .map-wrapper {
   display: flex;
   justify-content: center;

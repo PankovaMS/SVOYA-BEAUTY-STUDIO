@@ -98,16 +98,19 @@ document.addEventListener("DOMContentLoaded", function () {
 let nameInput = document.querySelector('#name');
 let phoneInput = document.querySelector('#phone');
 
-nameInput.addEventListener('input', (e) =>{
-    let v = e.target.value
+nameInput.addEventListener('beforeinput', (e) => {
+  if (e.data === ' ' || e.inputType === 'insertText' && /\s/.test(e.data)) {
+    e.preventDefault(); // полностью запрещаем вставку пробела
+  }
+});
 
-    v = v.replace(/[^А-Яа-яЁё]/g, '');
-
-    if(v.length > 20) {
-        v.slice(0, 15);
-    }
-
-    e.target.value = v;
+nameInput.addEventListener('input', (e) => {
+  let v = e.target.value;
+  v = v.replace(/[^А-Яа-яЁё]/g, '');
+  if (v.length > 20) {
+    v = v.slice(0, 20);
+  }
+  e.target.value = v;
 });
 
   phoneInput.addEventListener('input', (e) => {

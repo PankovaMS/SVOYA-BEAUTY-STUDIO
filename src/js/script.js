@@ -98,20 +98,15 @@ document.addEventListener("DOMContentLoaded", function () {
 let nameInput = document.querySelector('#name');
 let phoneInput = document.querySelector('#phone');
 
-nameInput.addEventListener('beforeinput', (e) => {
-  if (e.data === ' ' || e.inputType === 'insertText' && /\s/.test(e.data)) {
-    e.preventDefault(); // полностью запрещаем вставку пробела
-  }
-});
-
 nameInput.addEventListener('input', (e) => {
   let v = e.target.value;
-  v = v.replace(/[^А-Яа-яЁё]/g, '');
-  if (v.length > 20) {
-    v = v.slice(0, 20);
-  }
+  v = v.replace(/[^А-Яа-яЁё ]/g, ''); // только русские буквы и пробелы
+  v = v.replace(/\s{2,}/g, ' ');     // 2+ пробелов заменяем на 1
+  v = v.trim();                      // убираем пробелы в начале и в конце
+  v = v.slice(0, 20);                // ограничиваем длину
   e.target.value = v;
 });
+
 
   phoneInput.addEventListener('input', (e) => {
     let v = e.target.value;

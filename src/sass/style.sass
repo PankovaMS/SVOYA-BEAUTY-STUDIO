@@ -6,6 +6,7 @@
     height: 2100px
     background: url('../img/background.jpg') no-repeat center center / cover
     margin-bottom: 18px
+    box-sizing: border-box
     
 .main-section
     min-height: 100vh
@@ -76,6 +77,22 @@ h1
     border-radius: 12px
     color: #C6C6C6
     opacity: 0.7
+    display: flex
+    justify-content: center
+    align-items: center
+    text-align: center
+    
+
+.main-button-section
+    a
+        &:link,
+        &:visited,
+        &:hover,
+        &:active,
+        &:focus
+            color: #C6C6C6
+            text-decoration: none  
+              
 
 .manrope-regular
     font-family: "Manrope", sans-serif
@@ -342,4 +359,7 @@ form > input:last-of-type
   justify-content: center
   margin: 40px auto
 
-    
+input:focus
+    outline: 4px solid #000
+    color: #000
+

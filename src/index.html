@@ -27,9 +27,15 @@
         </div>
     </div>
     <div class="main-button-section">
-        <button class="main-button-section__btn manrope-regular">УСЛУГИ</button>
-        <button class="main-button-section__btn manrope-regular">МОИ РАБОТЫ</button>
-        <button class="main-button-section__btn btn--opacity manrope-regular">ЗАПИСАТЬСЯ</button>
+        <div class="main-button-section__btn">
+            <a class="manrope-regular" href="#services">УСЛУГИ</a>
+        </div>
+         <div class="main-button-section__btn">
+            <a class="manrope-regular" href="#portfolio">МОИ РАБОТЫ</a>
+        </div>
+         <div class="main-button-section__btn">
+            <a class="manrope-regular" href="#entry">ЗАПИСАТЬСЯ</a>
+        </div>
     </div>
      <div class="main">
         <img src="img/3.jpeg" alt="">
@@ -43,7 +49,7 @@
 Без стресса, без навязываний. Только результат, который хочется носить.</span>
             </div>
         </div>
-        <div class="services-block">
+                <div class="services-block" id="services">
             <div class="services-block__title">
                 <h2 class="manrope-regular">СТРИЖКИ</h2>
             </div>
@@ -116,7 +122,9 @@
                 
             </div>
         </div>
-
+<div class="services-block__title">
+                <h2 class="manrope-regular" id="portfolio">МОИ РАБОТЫ</h2>
+            </div>
 <div class="slider-wrapper" id="custom-slider-one">
   <button class="slider-wrapper_arrow arrow-left" id="prevBtn-one">❮</button>
   <div class="slider-wrapper__slider-track" id="sliderTrack-one">
@@ -140,13 +148,13 @@
   <button class="slider-wrapper_arrow arrow-right" id="nextBtn-two">❯</button>
 </div>
         <div class="form-entry">
-            <div class="form-entry__entry-btn manrope-regular">
+            <div class="form-entry__entry-btn manrope-regular" id="entry">
                 <h2>ЗАПИСАТЬСЯ</h2>
             </div>
             <div class="form-entry__entry-input">
-                <form action="#" method="post">
-                    <input type="text" name="name" placeholder="Имя" required autocomplete="off" class="form-entry__input manrope-regular">
-                    <input type="tel" name="phone" placeholder="Телефон" required autocomplete="off" class="form-entry__input manrope-regular">
+                <form action="#" method="post" autocomplete="off">
+                    <input type="text" name="name" id="name" placeholder="Имя" required minlength="2" maxlength="20" title="Введите имя" class="form-entry__input manrope-regular">
+                    <input type="tel" name="phone" id="phone" placeholder="Телефон" required class="form-entry__input manrope-regular">
                     <button class="form-entry__call-btn manrope-regular">Позвоните мне!</button>
                 </form>
             </div>

@@ -91,3 +91,61 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("resize", setCardWidthsTwo);
   }
 });
+
+
+// formValidation
+
+let nameInput = document.querySelector('#name');
+let phoneInput = document.querySelector('#phone');
+
+nameInput.addEventListener('input', (e) =>{
+    let v = e.target.value
+
+    v = v.replace(/[^А-Яа-яЁё]/g, '');
+
+    if(v.length > 20) {
+        v.slice(0, 15);
+    }
+
+    e.target.value = v;
+});
+
+  phoneInput.addEventListener('input', (e) => {
+    let v = e.target.value;
+
+
+    v = v.replace(/[^\d]/g, '');
+
+    if (v.startsWith('7') || v.startsWith('8')) {
+      v = v.slice(1);
+    }
+
+
+    v = '+7' + v;
+
+
+    if (v.length > 12) {
+      v = v.slice(0, 12);
+    }
+
+    e.target.value = v;
+  });
+
+let formButton = document.querySelector('.form-entry__call-btn');
+
+formButton.addEventListener('click', function (e) {
+    let nameValue = nameInput.value.trim();
+    let phoneValue = phoneInput.value.trim();
+
+    if (nameValue.length < 2) {
+        alert('Введите имя (не менее 2-х символов)!');
+        e.preventDefault();
+        return;
+    }
+
+    if (phoneValue.length !== 12) {
+        alert('Введите корректный номер телефона!');
+        e.preventDefault();
+        return;
+    }
+});

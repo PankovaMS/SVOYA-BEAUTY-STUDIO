@@ -1,32 +1,55 @@
+*, *::before, *::after
+    box-sizing: border-box
+    
 @import "normalizes.scss";
 @import "resets.scss";
+
+.main-section
+    width: 100%
+    min-height: 100vh
+    background: url('../img/main-background.jpg') no-repeat center center / cover
+    display: block
+    margin: 0 auto
+
+.main-section__content
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    min-height: 100vh
+    width: 100%
+
+
 .container
+    width: 100%
     max-width: 1200px
+    padding: 0 16px
+    display: block
     margin: 0 auto
     height: 2100px
     background: url('../img/background.jpg') no-repeat center center / cover
     margin-bottom: 18px
-    box-sizing: border-box
     
-.main-section
-    min-height: 100vh
-    background: url('../img/main-background.jpg') no-repeat center center / cover
+
+
+.container > img
+    width: 80%
+    aspect-ratio: 3 / 4
+    object-fit: cover
+    display: block
+    margin: 0 auto
+    border-radius: 6px
+    padding-bottom: 16px
+    margin-top: 20px
+
 
 .title
     background: rgba(217, 217, 217, 0.78)
     display: block
     border-radius: 14px
-    width: 808px
+    width: 65%
     height: 574px
     margin: 0 auto
-
-.container > img
-    width: 808px
-    height: 1200px
-    display: block
-    margin: 0 auto
-    border-radius: 6px
-    padding-bottom: 16px
 
 h1
     font-size: 64px
@@ -199,7 +222,8 @@ h1
 
 .slider-wrapper
     position: relative
-    width: 1218px
+    width: 100%
+    max-width: 1218px
     height: 450px
     overflow: hidden
     background-color: rgba(10, 0, 0, 0.7)
@@ -235,6 +259,8 @@ h1
     object-fit: cover
     border-radius: 24px    
     
+
+
 
 .slider-wrapper_arrow
     position: absolute
@@ -363,3 +389,236 @@ input:focus
     outline: 4px solid #000
     color: #000
 
+
+@media (max-width: 1199px)
+    .main-section
+        width: 100%
+    .container
+        width: 90%
+        height: auto
+    
+    .title
+        width: 80%
+        height: auto
+        margin-bottom: 260px
+
+    .title-description
+        h3
+          font-size: 37px
+          line-height: 48px
+
+    .manrope-regular
+        font-size: 75px
+
+
+    .text-block__title
+        font-size: 60px
+
+    .text-block__description
+        font-size: 30px    
+
+    .services-block__description-name
+        font-size: 21px
+        line-height: 21px
+
+    .services-block__description-price 
+        font-size: 21px
+        line-height: 21px
+
+    .services-block__title 
+        max-width: 800px
+        width: 90%
+        height: 58px
+
+    .services-block__title 
+        h2
+            font-size: 42px
+
+    .slider-wrapper
+        width: 90%
+        height: auto
+
+    .slider-wrapper__slider-track
+        padding: 55px 16px
+
+    .manrope-regular 
+        font-size: 70px
+
+    .form-entry__entry-btn
+        font-size: 43px
+
+    .for-media
+        font-size: 43px
+
+    .form-entry__call-btn
+        margin-bottom: 28px
+
+    .for-media-btn
+        font-size: 42px
+
+    .text-block
+        max-width: 1218px
+        width: 90%
+    .services-block
+        max-width: 1218px
+        width: 90%
+    .form-entry
+        width: 90%
+        height: auto
+
+    .contacts-block__title
+        width: 97%
+        height: auto
+
+    .for-media-contacts
+        font-size: 30px
+        margin-bottom: 30px
+    
+    .for-media-address
+        p
+            font-size: 20px
+    .main
+        width: 90%
+
+@media (max-width: 991px)
+    .main-section__content
+        width: 95%
+    
+    .container 
+        width: 80%
+
+    .container > img
+        width: 80%
+
+    .for-media-title > h1
+        font-size: 36px
+        line-height: 45px
+
+    .title__description > h3 
+        font-size: 25px
+        line-height: 39px
+
+    .main-button-section__btn 
+        width: 750px
+        height: 100px
+
+    .for-media-main-btn
+        font-size: 58px
+
+
+    .main > img
+        width: 80%
+        aspect-ratio: 1 / 1
+        object-fit: cover
+        
+    .text-block
+        width: 80%
+        height: 455px
+
+
+    .for-media-text-block
+        font-size: 35px
+        line-height: 45px
+
+    .for-media-description
+        font-size: 18px
+        line-height: 37px
+
+
+    .services-block 
+        width: 80%
+
+
+    .services-block__title
+        width: 80%
+        height: 46px
+
+    .services-block__title h2 
+        font-size: 35px
+
+    .services-block__description-name 
+        font-size: 18px
+        line-height: 15px   
+
+    .services-block__description-price > span
+        font-size: 18px
+        line-height: 15px
+
+    .services-block 
+        width: 80%
+        height: 426px  
+
+    .small
+        height: 225px
+
+    .for-media-portfolio
+        width: 40%
+
+
+    .form-entry__entry-btn 
+        font-size: 38px
+
+    .for-media
+        font-size: 35px
+
+
+    .for-media-btn 
+        font-size: 36px
+      
+
+    .for-media-contacts 
+        width: 841px
+        font-size: 23px
+        line-height: 38px
+
+    .contacts-block__title
+        width: 80%
+
+
+    .for-media-address > p
+        width: 824px
+
+    .media-width
+        width: 850px
+
+
+    iframe
+        width: 100%
+        max-width: 1200px
+        aspect-ratio: 4 / 3
+        height: auto
+        border: none
+        border-radius: 12px
+
+
+@media (max-width: 767px)
+    
+
+
+  .container
+    padding: 16px
+    display: flex
+    justify-content: center
+    padding: 0
+    margin: 0
+  .title
+    width: 80%
+    padding: 16px
+    h1
+      font-size: 28px
+    h3
+      font-size: 18px
+
+@media (max-width: 575px)
+  .manrope-regular
+    font-size: 40px
+    line-height: 48px
+  .main-button-section__btn
+    width: 90%
+    height: 80px
+  .title
+    border-radius: 10px
+    h1
+      font-size: 24px
+    h3
+      font-size: 16px

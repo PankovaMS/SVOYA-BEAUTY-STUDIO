@@ -194,7 +194,7 @@ h1
     display: flex
     flex-direction: column
     font-size: 24px
-    line-height: 30px
+    line-height: 20px
     letter-spacing: 10%
     color: #000
     opacity: 1
@@ -203,7 +203,7 @@ h1
     display: flex
     flex-direction: column
     font-size: 24px
-    line-height: 30px
+    line-height: 20px
     letter-spacing: 10%
     color: #000
     opacity: 1 
@@ -329,6 +329,9 @@ form > input:last-of-type
     letter-spacing: 10%
     line-height: 30px
 
+.contacts-block
+    margin-bottom: 50px
+
 .contacts-block__title
     @include darkBtn(1018px, 78px)
     border-radius: 0
@@ -393,6 +396,10 @@ input:focus
 @media (max-width: 1199px)
     .main-section
         width: 100%
+        display: flex
+        justify-content: center
+
+
     .container
         width: 90%
         height: auto
@@ -472,7 +479,6 @@ input:focus
 
     .for-media-contacts
         font-size: 30px
-        margin-bottom: 30px
     
     .for-media-address
         p
@@ -522,12 +528,7 @@ input:focus
 
     .for-media-description
         font-size: 18px
-        line-height: 37px
-
-
-    .services-block 
-        width: 80%
-
+        line-height: 24px
 
     .services-block__title
         width: 80%
@@ -537,7 +538,7 @@ input:focus
         font-size: 35px
 
     .services-block__description-name 
-        font-size: 18px
+        font-size: 16px
         line-height: 15px   
 
     .services-block__description-price > span
@@ -592,33 +593,101 @@ input:focus
 
 
 @media (max-width: 767px)
+    .container
+        display: flex
+        flex-direction: column
+        padding: 0
+        margin-bottom: 23px
+
+    .main-button-section
+        margin-bottom: 23px
     
+    .main-button-section__btn
+        width: 566px
 
+    .title
+        width: 80%
+        padding: 16px
+        h1
+        font-size: 28px
+        h3
+        font-size: 18px
 
-  .container
-    padding: 16px
-    display: flex
-    justify-content: center
-    padding: 0
-    margin: 0
-  .title
-    width: 80%
-    padding: 16px
-    h1
-      font-size: 28px
-    h3
-      font-size: 18px
+    .for-media-text-block 
+        font-size: 29px
+        line-height: 40px
+
+    .for-media-description 
+        font-size: 14px
+        line-height: 20px
+
+    form 
+        input
+            width: 529px
+
+    .contacts-block__content
+        width: 681px
+
+    .for-media-address > p 
+        width: 686px
+
+    iframe
+        width: 100%
+        max-width: 950px
+    
+    .media-width
+        margin: 0 auto
+        width: 100%
 
 @media (max-width: 575px)
-  .manrope-regular
-    font-size: 40px
-    line-height: 48px
-  .main-button-section__btn
-    width: 90%
-    height: 80px
-  .title
-    border-radius: 10px
-    h1
-      font-size: 24px
-    h3
-      font-size: 16px
+    .main-button-section__btn
+        width: 390px
+  
+
+    .text-block__description
+        font-size: 10px
+        line-height: 27px
+
+    
+    .services-block__description-name 
+        font-size: 11px
+        line-height: 11px
+
+    .services-block__description-price 
+        span 
+            font-size: 11px
+            line-height: 11px
+
+    .services-block__title 
+        h2 
+            font-size: 23px
+
+    .manrope-regular
+        font-size: 40px
+        line-height: 48px
+    .title
+        border-radius: 10px
+        h1
+        font-size: 24px
+        h3
+        font-size: 16px
+
+    form 
+        input
+            width: 370px
+
+    .form-entry__entry-btn
+        width: 341px
+
+    .for-media-btn
+        width: 310px
+
+    .manrope-regular 
+        font-size: 29px
+
+    .for-media-contacts
+        width: 534px
+        font-size: 20px
+
+    .for-media-address > p 
+        width: 516px

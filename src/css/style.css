@@ -664,7 +664,7 @@ h1 {
   display: flex;
   flex-direction: column;
   font-size: 24px;
-  line-height: 30px;
+  line-height: 20px;
   letter-spacing: 10%;
   color: #000;
   opacity: 1;
@@ -675,7 +675,7 @@ h1 {
   display: flex;
   flex-direction: column;
   font-size: 24px;
-  line-height: 30px;
+  line-height: 20px;
   letter-spacing: 10%;
   color: #000;
   opacity: 1;
@@ -847,6 +847,11 @@ form > input:last-of-type {
 }
 
 /* line 332, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+.contacts-block {
+  margin-bottom: 50px;
+}
+
+/* line 335, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .contacts-block__title {
   width: 1018px;
   height: 78px;
@@ -864,34 +869,34 @@ form > input:last-of-type {
   align-items: center;
 }
 
-/* line 341, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 344, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .contacts-block__title > h2 {
   font-size: 48px;
   letter-spacing: 20%;
   text-align: center;
 }
 
-/* line 346, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 349, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .contacts-block__content-name {
   display: flex;
   flex-direction: column;
   text-align: left;
 }
 
-/* line 351, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 354, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .contacts-block__content-link {
   display: flex;
   flex-direction: column;
   text-align: right;
 }
 
-/* line 358, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 361, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .contacts-block__content-link a:link, .contacts-block__content-link a:visited, .contacts-block__content-link a:hover, .contacts-block__content-link a:active, .contacts-block__content-link a:focus {
   color: #000;
   text-decoration: none;
 }
 
-/* line 367, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 370, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .contacts-block__content {
   width: 1018px;
   height: 200px;
@@ -906,269 +911,266 @@ form > input:last-of-type {
   background: none;
 }
 
-/* line 374, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 377, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .address {
   display: flex;
   justify-content: center;
 }
 
-/* line 378, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 381, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .address > p {
   text-align: left;
   width: 1018px;
   font-size: 28px;
 }
 
-/* line 383, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 386, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 .map-wrapper {
   display: flex;
   justify-content: center;
   margin: 40px auto;
 }
 
-/* line 388, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+/* line 391, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
 input:focus {
   outline: 4px solid #000;
   color: #000;
 }
 
 @media (max-width: 1199px) {
-  /* line 394, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 397, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .main-section {
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
-  /* line 396, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 403, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .container {
     width: 90%;
     height: auto;
   }
-  /* line 400, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 407, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .title {
     width: 80%;
     height: auto;
     margin-bottom: 260px;
   }
-  /* line 406, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 413, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .title-description h3 {
     font-size: 37px;
     line-height: 48px;
   }
-  /* line 410, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 417, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .manrope-regular {
     font-size: 75px;
   }
-  /* line 414, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 421, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .text-block__title {
     font-size: 60px;
   }
-  /* line 417, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 424, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .text-block__description {
     font-size: 30px;
   }
-  /* line 420, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 427, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .services-block__description-name {
     font-size: 21px;
     line-height: 21px;
   }
-  /* line 424, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 431, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .services-block__description-price {
     font-size: 21px;
     line-height: 21px;
   }
-  /* line 428, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 435, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .services-block__title {
     max-width: 800px;
     width: 90%;
     height: 58px;
   }
-  /* line 434, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 441, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .services-block__title h2 {
     font-size: 42px;
   }
-  /* line 437, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 444, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .slider-wrapper {
     width: 90%;
     height: auto;
   }
-  /* line 441, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 448, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .slider-wrapper__slider-track {
     padding: 55px 16px;
   }
-  /* line 444, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 451, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .manrope-regular {
     font-size: 70px;
   }
-  /* line 447, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 454, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .form-entry__entry-btn {
     font-size: 43px;
   }
-  /* line 450, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 457, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .for-media {
     font-size: 43px;
   }
-  /* line 453, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 460, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .form-entry__call-btn {
     margin-bottom: 28px;
   }
-  /* line 456, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 463, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .for-media-btn {
     font-size: 42px;
   }
-  /* line 459, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 466, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .text-block {
     max-width: 1218px;
     width: 90%;
   }
-  /* line 462, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 469, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .services-block {
     max-width: 1218px;
     width: 90%;
   }
-  /* line 465, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 472, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .form-entry {
     width: 90%;
     height: auto;
   }
-  /* line 469, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 476, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .contacts-block__title {
     width: 97%;
     height: auto;
   }
-  /* line 473, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 480, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .for-media-contacts {
     font-size: 30px;
-    margin-bottom: 30px;
   }
-  /* line 478, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 484, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .for-media-address p {
     font-size: 20px;
   }
-  /* line 480, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 486, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .main {
     width: 90%;
   }
 }
 
 @media (max-width: 991px) {
-  /* line 484, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 490, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .main-section__content {
     width: 95%;
   }
-  /* line 487, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 493, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .container {
     width: 80%;
   }
-  /* line 490, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 496, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .container > img {
     width: 80%;
   }
-  /* line 493, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 499, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .for-media-title > h1 {
     font-size: 36px;
     line-height: 45px;
   }
-  /* line 497, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 503, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .title__description > h3 {
     font-size: 25px;
     line-height: 39px;
   }
-  /* line 501, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 507, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .main-button-section__btn {
     width: 750px;
     height: 100px;
   }
-  /* line 505, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 511, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .for-media-main-btn {
     font-size: 58px;
   }
-  /* line 509, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 515, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .main > img {
     width: 80%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
   }
-  /* line 514, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 520, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .text-block {
     width: 80%;
     height: 455px;
   }
-  /* line 519, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 525, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .for-media-text-block {
     font-size: 35px;
     line-height: 45px;
   }
-  /* line 523, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 529, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .for-media-description {
     font-size: 18px;
-    line-height: 37px;
+    line-height: 24px;
   }
-  /* line 528, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
-  .services-block {
-    width: 80%;
-  }
-  /* line 532, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 533, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .services-block__title {
     width: 80%;
     height: 46px;
   }
-  /* line 536, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 537, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .services-block__title h2 {
     font-size: 35px;
   }
-  /* line 539, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 540, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .services-block__description-name {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 15px;
   }
-  /* line 543, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 544, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .services-block__description-price > span {
     font-size: 18px;
     line-height: 15px;
   }
-  /* line 547, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 548, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .services-block {
     width: 80%;
     height: 426px;
   }
-  /* line 551, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 552, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .small {
     height: 225px;
   }
-  /* line 554, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 555, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .for-media-portfolio {
     width: 40%;
   }
-  /* line 558, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 559, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .form-entry__entry-btn {
     font-size: 38px;
   }
-  /* line 561, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 562, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .for-media {
     font-size: 35px;
   }
-  /* line 565, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 566, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .for-media-btn {
     font-size: 36px;
   }
-  /* line 569, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 570, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .for-media-contacts {
     width: 841px;
     font-size: 23px;
     line-height: 38px;
   }
-  /* line 574, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 575, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .contacts-block__title {
     width: 80%;
   }
-  /* line 578, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 579, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .for-media-address > p {
     width: 824px;
   }
-  /* line 581, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 582, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .media-width {
     width: 850px;
   }
-  /* line 585, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 586, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   iframe {
     width: 100%;
     max-width: 1200px;
@@ -1180,51 +1182,121 @@ input:focus {
 }
 
 @media (max-width: 767px) {
-  /* line 598, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 596, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .container {
-    padding: 16px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     padding: 0;
-    margin: 0;
+    margin-bottom: 23px;
   }
-  /* line 604, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 602, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  .main-button-section {
+    margin-bottom: 23px;
+  }
+  /* line 605, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  .main-button-section__btn {
+    width: 566px;
+  }
+  /* line 608, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .title {
     width: 80%;
     padding: 16px;
-  }
-  /* line 607, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
-  .title h1 {
     font-size: 28px;
-  }
-  /* line 609, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
-  .title h3 {
     font-size: 18px;
+  }
+  /* line 616, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  .for-media-text-block {
+    font-size: 29px;
+    line-height: 40px;
+  }
+  /* line 620, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  .for-media-description {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /* line 625, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  form input {
+    width: 529px;
+  }
+  /* line 628, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  .contacts-block__content {
+    width: 681px;
+  }
+  /* line 631, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  .for-media-address > p {
+    width: 686px;
+  }
+  /* line 634, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  iframe {
+    width: 100%;
+    max-width: 950px;
+  }
+  /* line 638, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  .media-width {
+    margin: 0 auto;
+    width: 100%;
   }
 }
 
 @media (max-width: 575px) {
-  /* line 613, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 643, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  .main-button-section__btn {
+    width: 390px;
+  }
+  /* line 647, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  .text-block__description {
+    font-size: 10px;
+    line-height: 27px;
+  }
+  /* line 652, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  .services-block__description-name {
+    font-size: 11px;
+    line-height: 11px;
+  }
+  /* line 657, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  .services-block__description-price span {
+    font-size: 11px;
+    line-height: 11px;
+  }
+  /* line 662, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  .services-block__title h2 {
+    font-size: 23px;
+  }
+  /* line 665, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .manrope-regular {
     font-size: 40px;
     line-height: 48px;
   }
-  /* line 616, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
-  .main-button-section__btn {
-    width: 90%;
-    height: 80px;
-  }
-  /* line 619, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  /* line 668, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
   .title {
     border-radius: 10px;
-  }
-  /* line 621, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
-  .title h1 {
     font-size: 24px;
-  }
-  /* line 623, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
-  .title h3 {
     font-size: 16px;
+  }
+  /* line 676, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  form input {
+    width: 370px;
+  }
+  /* line 679, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  .form-entry__entry-btn {
+    width: 341px;
+  }
+  /* line 682, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  .for-media-btn {
+    width: 310px;
+  }
+  /* line 685, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  .manrope-regular {
+    font-size: 29px;
+  }
+  /* line 688, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  .for-media-contacts {
+    width: 534px;
+    font-size: 20px;
+  }
+  /* line 692, ../../../../../../../../../../../../../Users/margo/Documents/SVOYA BEAUTY STUDIO/src/sass/style.sass */
+  .for-media-address > p {
+    width: 516px;
   }
 }
 

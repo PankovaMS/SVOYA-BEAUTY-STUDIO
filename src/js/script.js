@@ -1,15 +1,16 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Слайдер One
+  // === Слайдер One ===
   const sliderTrackOne = document.getElementById("sliderTrack-one");
   const prevBtnOne = document.getElementById("prevBtn-one");
   const nextBtnOne = document.getElementById("nextBtn-one");
 
   if (sliderTrackOne && prevBtnOne && nextBtnOne) {
     const cardsOne = Array.from(sliderTrackOne.children);
-    const visibleCountOne = 3;
+    let visibleCountOne = window.innerWidth < 768 ? 1 : (window.innerWidth < 1024 ? 2 : 3);
     let currentIndexOne = 0;
 
     function setCardWidthsOne() {
+      visibleCountOne = window.innerWidth < 768 ? 1 : (window.innerWidth < 1024 ? 2 : 3);
       const cardWidth = sliderTrackOne.clientWidth / visibleCountOne;
       cardsOne.forEach(card => {
         card.style.minWidth = `${cardWidth}px`;
@@ -42,20 +43,28 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     setCardWidthsOne();
-    window.addEventListener("resize", setCardWidthsOne);
+
+    window.addEventListener("resize", () => {
+      setCardWidthsOne();
+      if (currentIndexOne > cardsOne.length - visibleCountOne) {
+        currentIndexOne = Math.max(0, cardsOne.length - visibleCountOne);
+      }
+      updateSliderOne();
+    });
   }
 
-  // Слайдер Two
+  // === Слайдер Two ===
   const sliderTrackTwo = document.getElementById("sliderTrack-two");
   const prevBtnTwo = document.getElementById("prevBtn-two");
   const nextBtnTwo = document.getElementById("nextBtn-two");
 
   if (sliderTrackTwo && prevBtnTwo && nextBtnTwo) {
     const cardsTwo = Array.from(sliderTrackTwo.children);
-    const visibleCountTwo = 3;
+    let visibleCountTwo = window.innerWidth < 768 ? 1 : (window.innerWidth < 1024 ? 2 : 3);
     let currentIndexTwo = 0;
 
     function setCardWidthsTwo() {
+      visibleCountTwo = window.innerWidth < 768 ? 1 : (window.innerWidth < 1024 ? 2 : 3);
       const cardWidth = sliderTrackTwo.clientWidth / visibleCountTwo;
       cardsTwo.forEach(card => {
         card.style.minWidth = `${cardWidth}px`;
@@ -88,7 +97,14 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     setCardWidthsTwo();
-    window.addEventListener("resize", setCardWidthsTwo);
+
+    window.addEventListener("resize", () => {
+      setCardWidthsTwo();
+      if (currentIndexTwo > cardsTwo.length - visibleCountTwo) {
+        currentIndexTwo = Math.max(0, cardsTwo.length - visibleCountTwo);
+      }
+      updateSliderTwo();
+    });
   }
 });
 
